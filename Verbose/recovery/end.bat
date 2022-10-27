@@ -8,7 +8,7 @@ echo         Made by Nova
 echo ----------------------------
 echo Thanks for using Verbose software!
 echo Editing Registry...
-reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d C:\Verbose\recovery\start.bat /f
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d explorer.exe /f
 echo Added Entry!
 echo Changed "Shell" RegKey to Windows Explorer (Actual Shell)
 echo After this pause, your machine will restart
