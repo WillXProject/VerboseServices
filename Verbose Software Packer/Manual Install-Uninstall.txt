@@ -1,0 +1,14 @@
+Verbose Manual Install/Uninstall:
+
+Installation:
+Copy the "Verbose" directory to C:\
+Delete the file "DONOTDELETETHISFILE.txt" in \Verbose\src\ (this is to check whether it is actually installed or not)
+Done!
+
+Uninstallation:
+Delete the "Verbose" directory in C:\
+Done!
+
+Remove Traces:
+Open Regedit
+Remove HKLM\SOFTWARE\Verbose or in an Admin command prompt do reg delete HKLM\SOFTWARE\Verbose
