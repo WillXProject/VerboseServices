@@ -1,3 +1,0 @@
-@echo off
-title Nova Recovery Protocol Starting...
-C:\Verbose\clutils elevate C:\Verbose\src\payloadrecovery.bat
