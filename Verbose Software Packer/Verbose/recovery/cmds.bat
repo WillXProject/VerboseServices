@@ -4,6 +4,7 @@ echo         V e r b o s e
 echo        System Recovery
 echo         Command List
 echo ----------------------------
+echo ("cd" - Sends you to this directory, nothing special)
 echo "registry" - Registry Editor
 echo "cmdadmin" - Opens another Admin command prompt
 echo "cmduser" - Opens a command prompt as a user
