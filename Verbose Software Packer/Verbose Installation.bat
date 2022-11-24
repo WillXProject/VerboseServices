@@ -55,7 +55,13 @@ if exist C:\Verbose\src\DONOTDELETETHISFILE.txt goto success
 reg add HKLM\SOFTWARE\Verbose\ /f
 reg add HKLM\SOFTWARE\Verbose\ /v Installed /t REG_DWORD /d 1 /f
 del /f /q C:\Verbose\src\DONOTDELETETHISFILE.txt
+echo Installation Success!
+echo After this pause, this installation will exit
+pause
+exit
 :failed
+reg add HKLM\SOFTWARE\Verbose\
 reg add HKLM\SOFTWARE\Verbose\ /v Installed /t REG_DWORD /d 0 /f
 echo If this showed an error, the installation failed and the Verbose Directories probably weren't copied properly
 pause
+exit
